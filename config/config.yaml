@@ -1,0 +1,21 @@
+viTmodel:
+  name: "ViT"
+  embedding_dim: 768
+  num_heads: 12
+  num_layers: 12
+  ff_dim: 3072
+  dropout_rate: 0.1
+  attention_dropout_rate: 0.1
+  patch_size: 16
+  image_size: 224
+  num_classes: 2
+  pretrained: true
+trainConfig:
+  train_rate: 0.8
+  val_rate: 0.1
+  test_rate: 0.1
+  batch_size: 1024
+  epochs: 10
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  momentum: 0.9
