@@ -1,5 +1,7 @@
 /data/*
 !.gitkeep
 
-/model/*.pt 
+/model/**/*.pt
+/model/**/*.pth
+/model/*.pt
 /model/*.pth
