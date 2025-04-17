@@ -38,7 +38,7 @@ The model achieves:
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/edithh81/ViTClassification.git
 cd ViTClassification
 
 # Create and activate a virtual environment (optional but recommended)
